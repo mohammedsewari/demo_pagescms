@@ -1,5 +1,4 @@
 media: public
-
 content:
   - name: site
     label: Site Content
@@ -23,8 +22,7 @@ content:
           - name: text
             label: About Text
             type: text
-
- - name: pages
+  - name: pages
     label: Pages
     type: collection
     path: pages
