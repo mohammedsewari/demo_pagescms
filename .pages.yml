@@ -24,10 +24,12 @@ content:
             label: About Text
             type: text
 
-  - name: pages
+ - name: pages
     label: Pages
     type: collection
     path: pages
+    filename: '{fields.slug}.json'
+    format: json
     fields:
       - name: title
         label: Page Title
