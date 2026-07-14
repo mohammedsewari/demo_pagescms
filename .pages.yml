@@ -1,0 +1,25 @@
+media: public
+
+content:
+  - name: site
+    label: Site Content
+    type: single
+    path: content.json
+    fields:
+      - name: hero
+        label: Hero Section
+        type: object
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: subtitle
+            label: Subtitle
+            type: string
+      - name: about
+        label: About Section
+        type: object
+        fields:
+          - name: text
+            label: About Text
+            type: text
