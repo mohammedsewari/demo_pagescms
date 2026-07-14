@@ -3,7 +3,7 @@ media: public
 content:
   - name: site
     label: Site Content
-    type: single
+    type: file
     path: content.json
     fields:
       - name: hero
