@@ -23,3 +23,28 @@ content:
           - name: text
             label: About Text
             type: text
+
+  - name: pages
+    label: Pages
+    type: collection
+    path: pages
+    fields:
+      - name: title
+        label: Page Title
+        type: string
+      - name: slug
+        label: URL Slug
+        type: string
+      - name: hero
+        label: Hero Section
+        type: object
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: subtitle
+            label: Subtitle
+            type: string
+      - name: body
+        label: Page Content
+        type: text
