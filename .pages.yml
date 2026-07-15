@@ -48,3 +48,26 @@ content:
       - name: body
         label: Page Content
         type: text
+
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: posts
+    filename: '{fields.slug}.json'
+    format: json
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: slug
+        label: URL Slug
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: image
+        label: Cover Image
+        type: image
+      - name: body
+        label: Body
+        type: rich-text
