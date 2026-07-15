@@ -15,6 +15,9 @@ content:
           - name: subtitle
             label: Subtitle
             type: string
+          - name: image
+            label: Image
+            type: image
       - name: about
         label: About Section
         type: object
