@@ -47,7 +47,7 @@ content:
             type: string
       - name: body
         label: Page Content
-        type: text
+        type: rich-text
 
   - name: posts
     label: Blog Posts
