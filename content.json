@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Hi, I'm Mohammed From Yemen",
-    "subtitle": "Software Engineer based in the Netherlands"
+    "subtitle": "Software Engineer based in the Netherlands",
+    "image": "/public/IMG_0592.jpeg"
   },
   "about": {
     "text": "I build websites using AI-assisted development."
